@@ -1,4 +1,4 @@
-.tiledBackground {
+/* .tiledBackground {
   background-image: url("img/Screenshot\ 2026-03-11\ at\ 2.25.22\ PM.png");
   background-size: contain;
 background-repeat: no-repeat;
@@ -10,13 +10,47 @@ background-repeat: no-repeat;
 }
 
 .img {
-     /* width: 300px;
-  height: 300px; */
+     width: 600px;
+ 
 
 }
 img {
-       width: 300px;
-  height: 300px;
+       max-width: 100%;
+  height: auto;
 
-    object-fit: contain;
+    object-fit: cover;
 }
+
+body {
+  background: purple;
+}
+
+@media (max-width: 900px) {
+  body {
+    background: green;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    background: brown;
+  }
+}
+
+@media (max-width: 700px) {
+  body {
+    background: pink;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background: blue;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    background: orange;
+  }
+} */
