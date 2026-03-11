@@ -1,0 +1,10 @@
+.tiledBackground {
+  background-image: url("img/Screenshot\ 2026-03-11\ at\ 2.25.22\ PM.png");
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  border: 2px solid;
+  color: pink;
+  background-position: bottom;
+}
