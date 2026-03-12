@@ -7,10 +7,7 @@ Project have a full design in 3 different sizes: desktop, tablet, and mobile.
 
 
 Animation
-Transforms
-
-
-Transitions
+Used Transforms/Transitions on project img
 
 
 Keyframes
