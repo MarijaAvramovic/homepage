@@ -6,19 +6,14 @@ Project have a full design in 3 different sizes: desktop, tablet, and mobile.
  The main focus is on achieving the specified layouts and responsive behaviour rather than a complete portfolio. 
 
 
-Animation
+- Animation
 Used Transforms/Transitions on project img
 used Keyframes for h3 projects
-
-
-Accessibility
-Introduction to Web Accessibility
-
 
 The Web Content Accessibility Guidelines (WCAG)
 
 
-Semantic HTML - main, header section (#3) footer
+- Semantic HTML - main, header section (#3) footer
 
 
 Accessible Colors
@@ -35,16 +30,8 @@ WAI-ARIA
 
 Accessibility Auditing
 
-
-Responsive Design
-Introduction to Responsive Design
-
-
-Natural Responsiveness
-
-
-Responsive Images
+- Natural Responsiveness
+- Responsive Images
 used background size, object-fit
-
-
-Media Queries
+- using Media Queries
+ 
