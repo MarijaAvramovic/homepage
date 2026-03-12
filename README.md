@@ -1,4 +1,4 @@
-My new HTML/CSS project, that includes a responsive homepage, something you might find on a portfolio site of sorts. Practiing with more advanced HTML and CSS concepts first.
+My new HTML/CSS project(https://marijaavramovic.github.io/homepage/), that includes a responsive homepage, something you might find on a portfolio site of sorts. Practiing with more advanced HTML and CSS concepts first.
 
 
 Project have a full design in 3 different sizes: desktop, tablet, and mobile. 
