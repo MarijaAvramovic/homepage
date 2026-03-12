@@ -94,7 +94,7 @@ img {
   }  */
 
   .hero {
-    padding: 20px;
+    padding: 10px;
     display: flex;
      flex-direction: column;
     justify-content: center;
@@ -103,14 +103,32 @@ img {
   }
 
   .hero-img {
-    padding: 5px;
+    padding:  10px 50px;
     background-image: url("img/pexels-hans-martha-399489-1059823\ \(1\).jpg");
     background-size: cover;
     background-position: center;
     min-height: 350px;
-    max-width: 60%;
+     width: 90%;
     display: flex;
      align-items: flex-end;
      justify-content: center;
     margin: 0 auto;
+    color: aliceblue;
+  }
+
+
+  .about-me {
+    padding: 0.4rem;
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     gap: 5px;
+  }
+
+  .icons {
+    font-size: 2rem;
+     display: flex;
+    justify-content: center;
+     gap: 20px;
   }
