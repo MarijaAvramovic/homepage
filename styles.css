@@ -210,13 +210,21 @@ footer img {
   .hero-img {
         align-items: start;
     justify-content: right;
+    transition: 
+    transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1),  /* nice overshoot/bounce */
+    box-shadow 0.35s ease;
+  }
+    .hero-img:hover{
+   transform: translateY(40px) 
   }
   
     .about-me {
         background-color: aliceblue;
         padding: 20px;
-
-    }
+ transform: translateY(40px);
+ text-align: right;
+ padding-left: 3rem;
+       }
  .icons {
   justify-content: right;
  
