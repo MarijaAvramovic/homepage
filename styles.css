@@ -95,6 +95,12 @@ img {
 .projects {
   padding: 2rem 1rem;
 }
+.project-grid{
+    display: grid;
+grid-template-columns: 1fr;
+
+}
+ 
 
 .projects h2 {
   text-align: center;
@@ -195,9 +201,43 @@ footer img {
   margin-top: 2rem;
 }
 
-/* Dodaj ovo tek KASNIJE – za tablet i veće ekrane */
+ 
 @media (min-width: 768px) {
-  /* ovdje ide tablet layout – 2 kolone projekata, hero side-by-side itd. */
+    .hero{
+        flex-direction: row;
+        gap: 0;
+    }
+  .hero-img {
+        align-items: start;
+    justify-content: right;
+  }
+  
+    .about-me {
+        background-color: aliceblue;
+        padding: 20px;
+
+    }
+ .icons {
+  justify-content: right;
+ 
+}
+
+.project-grid{
+    
+ grid-template-columns: repeat(2, 1fr);    
+    gap: 2rem;                               /* bigger gap looks better */
+    padding: 2rem 1.5rem;
+}
+ footer {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+ }
+  footer .icons{
+      justify-content: center;
+ }
+
 }
 
 @media (min-width: 1024px) {

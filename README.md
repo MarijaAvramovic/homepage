@@ -8,9 +8,7 @@ Project have a full design in 3 different sizes: desktop, tablet, and mobile.
 
 Animation
 Used Transforms/Transitions on project img
-
-
-Keyframes
+used Keyframes for h3 projects
 
 
 Accessibility
