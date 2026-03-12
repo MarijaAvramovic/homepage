@@ -49,6 +49,7 @@ Natural Responsiveness
 
 
 Responsive Images
+used background size, object-fit
 
 
 Media Queries
